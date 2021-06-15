@@ -7,20 +7,11 @@ body {
     margin: 0;
 }
 
-.wrapper {
-    border: 5px solid red;
-    background-color: yellowgreen;
+.btn {
+    width: 240px;
+    /* height: 30px; */
 
-    width: 400px;
-    max-height: 100px;
-
-    /* overflow: auto; */
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.inner {
-    border: 2px solid blue;
-    background-color: rgb(180, 121, 94);
-    font-size: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
